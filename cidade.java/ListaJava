@@ -1,0 +1,53 @@
+import java.util.Scanner;
+ 
+ 	public class ListaJava{
+ 
+ 		public static void main(String args[]) {
+ 
+ 			
+ 			Scanner sc = new Scanner(System.in);
+
+			int cidadeAtual = 0;
+			int TotalDeCidade = 5;
+			String cidade = "";
+			String populacao = "";
+			String sigla = "";
+			String infoNomeCidade[] = new String [10];	
+
+			do{
+
+				
+				System.out.println("Digite o nome Cidade:");
+				cidade = sc.nextline();
+	
+				System.out.println("Digite a população:");
+				populacao = sc.nextline();
+	
+				System.out.println("Digite a sigla:");
+				sigla = sc.nextline()
+
+
+				infoNomeCidade[cidadeAtual] = sigla;
+				infoNomeCidade [cidadeAtual] = populacao;
+				infoNomeCidade [cidadeAtual] = cidade; 
+
+				cidadeAtual
+			}while(cidadeAtual <= TotalDeCidade);
+
+
+			for(int contador = 0 ; contador < =10;  contador++){
+				system.out.println( infoNomeCidade[contador]);
+		
+			}
+
+          
+
+
+ 			
+ 			double resultaDaCidade = (primeiraCidade + segundaCidade + terceiraCidade) / 3;
+ 	
+ 			System.out.println("\nResultados:\n");
+ 			System.out.println(resultadoNota);
+ 			
+ 		}
+ 	}
